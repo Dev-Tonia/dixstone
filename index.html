@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Remix Icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!-- css style -->
+    <link rel="stylesheet" href="./assests/main.css" />
+    <link rel="stylesheet" href="./assests/icons.css" />
+
+    <!-- Font family  -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon script -->
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.1.0/dist/iconify-icon.min.js"></script>
+    <title>DIXSTONE || Documents</title>
+  </head>
+  <body>
+    <aside class="col-2 position-fixed z-2 top-0">
+      <div class="overflow-y-auto h-100 pt-4">
+        <nav class="nav flex-column px-3 justify-content-center text-white">
+          <!-- Brand Logo and Name -->
+          <div class="d-flex align-items-center justify-content-center gap-2">
+            <img src="./assests/imgs/logo.png" alt="" />
+            <h1 class="brand fw-semibold mb-0 fs-6">DIXSTONE</h1>
+          </div>
+          <!--End of Brand Logo and Name -->
+          <!-- Nav Heading  -->
+          <div class="pt-5">
+            <h6
+              class="text-white fw-semibold fs-5 border-bottom border-white border-opacity-50 text-center pb-2"
+            >
+              PMS
+            </h6>
+            <div
+              class="d-flex justify-content-center gap-1 align-items-center pt-3"
+            >
+              <small>Site Contact</small>
+              <div
+                class="dixstone-secondary p-1 rounded bg-white d-flex align-items-center gap-1"
+              >
+                <iconify-icon
+                  icon="fluent:video-person-call-20-regular"
+                  class="fs-4"
+                ></iconify-icon>
+                <small class="mb-0">Pierre Delorme</small>
+              </div>
+            </div>
+          </div>
+          <ul class="navbar-nav text-black my-3">
+            <li class="nav-item fw-bold border-2 border-bottom pt-3"></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Settings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Logout</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+
+    <!-- Main content -->
+    <main class="d-flex mt-5 px-3 px-md-5">
+      <div class="col-2 sideUnderlay"></div>
+
+      <div class="col-10 mx-auto">
+        <!-- pages and search -->
+        <section class="">
+          <!-- ////////////////////////////////////////// -->
+          <!-- Search sections -->
+          <div class="d-flex align-items-center py-4">
+            <h6 class="fs-3 fw-bold col-3 dixstone-primary">
+              Available Resources
+            </h6>
+            <form class="col-4">
+              <div class="input-group border rounded shadow-sm">
+                <span
+                  class="input-group-text dixstone-primary bg-white border-0 fw-bold fs-3"
+                  id="basic-addon1"
+                >
+                  <i class="ri-search-line"></i>
+                </span>
+                <input
+                  type="text"
+                  class="form-control border-0"
+                  placeholder="Search by title..."
+                  aria-label="search"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+            </form>
+          </div>
+
+          <!-- End of search section -->
+
+          <!-- ////////////////////////////////////////// -->
+
+          <!-- Tab Sections -->
+          <div class="d-flex align-items-center gap-3 py-5">
+            <h6 class="fw-bold text-capitalize dixstone-primary fs-5">
+              departments:
+            </h6>
+
+            <!-- Marine Card -->
+            <a
+              href="../pages/marines.html"
+              class="dixstone-secondary d-flex align-items-center gap-2 border border-3 px-3 py-2 rounded text-decoration-none"
+            >
+              <iconify-icon
+                icon="hugeicons:submarine"
+                class="fs-4"
+              ></iconify-icon>
+              <span>Marine</span>
+            </a>
+            <!-- End of Marine Card -->
+            <!-- Drilling Card -->
+            <a
+              href="../pages/drilling.html"
+              class="dixstone-secondary fs-6 d-flex align-items-center gap-2 border border-3 px-3 py-2 rounded text-decoration-none"
+            >
+              <iconify-icon
+                icon="material-symbols:tools-power-drill-outline-sharp"
+                class="fs-4"
+              ></iconify-icon>
+
+              <span>Drilling</span>
+            </a>
+            <!-- End of Drilling Card -->
+            <!-- H.R Card -->
+            <a
+              href="../pages/hr.html"
+              class="dixstone-secondary fs-6 d-flex align-items-center gap-2 border border-3 px-3 py-2 rounded text-decoration-none"
+            >
+              <iconify-icon
+                icon="fa6-solid:people-roof"
+                class="fs-4"
+              ></iconify-icon>
+              <span> H.R </span>
+            </a>
+            <!-- End of H.R Card -->
+            <!-- I.T Card -->
+            <a
+              href="../pages/it.html"
+              class="dixstone-secondary fs-6 d-flex align-items-center gap-2 border border-3 px-3 py-2 rounded text-decoration-none"
+            >
+              <iconify-icon icon="bi:laptop" class="fs-4"></iconify-icon>
+
+              <span> I.T </span>
+            </a>
+            <!-- End of I.T Card -->
+            <!-- Petrodel Card -->
+            <a
+              href="../pages/petrodel.html"
+              class="dixstone-secondary fs-6 d-flex align-items-center gap-2 border border-3 px-3 py-2 rounded text-decoration-none"
+            >
+              <iconify-icon
+                icon="ri:user-settings-fill"
+                class="fs-4"
+              ></iconify-icon>
+              <span>Petrodel </span>
+            </a>
+            <!-- End of Petrodel Card -->
+            <!-- QHSE Card -->
+            <a
+              href="../pages/qhse.html"
+              class="dixstone-secondary fs-6 d-flex align-items-center gap-2 border border-3 px-3 py-2 rounded text-decoration-none"
+            >
+              <iconify-icon
+                icon="wpf:security-checked"
+                class="fs-4"
+              ></iconify-icon>
+              <span>QHSE </span>
+            </a>
+            <!-- End of QHSE card -->
+            <!-- Supply Chain card -->
+            <a
+              href="../pages/supply-chain.html"
+              class="dixstone-secondary fs-6 d-flex align-items-center gap-2 border border-3 px-3 py-2 rounded text-decoration-none"
+            >
+              <iconify-icon icon="bx:link" class="fs-4"></iconify-icon>
+              <span>Supply Chain </span>
+            </a>
+
+            <!-- End Of Supply Chain -->
+          </div>
+        </section>
+
+        <!-- Folder Section -->
+        <section class="pb-5 resources">
+          <div class="mb-5">
+            <h6 class="fs-3 fw-bold col-3 dixstone-primary mb-2">
+              Recently Added Resources
+            </h6>
+
+            <!-- Resources card 1 -->
+            <div class="row border rounded px-3 py-2 my-3 shadow-sm">
+              <!-- File Icon and Name -->
+              <div class="col-2">
+                <h6 class="fw-semiblod dixstone-secondary">Name</h6>
+
+                <div class="d-flex align-items-center gap-2">
+                  <iconify-icon icon="uiw:file-pdf" class="fs-2"></iconify-icon>
+
+                  <!-- File name -->
+                  <span>Cost details for special survey</span>
+                </div>
+              </div>
+
+              <!-- Department -->
+              <div class="col">
+                <h6 class="fw-semiblod dixstone-secondary">Department</h6>
+
+                <span>Marine</span>
+              </div>
+
+              <!-- Author -->
+              <div class="col">
+                <h6 class="fw-semiblod dixstone-secondary">Author</h6>
+
+                <span>CHALSES Ebene</span>
+              </div>
+
+              <!-- Date -->
+              <div class="col">
+                <h6 class="fw-semiblod dixstone-secondary">Date</h6>
+
+                <span>2024-02-14</span>
+              </div>
+
+              <!-- Size -->
+              <div class="col">
+                <h6 class="fw-semiblod dixstone-secondary">Size</h6>
+
+                <span>127,42Kb</span>
+              </div>
+
+              <!-- File Type -->
+              <div class="col">
+                <h6 class="fw-semiblod dixstone-secondary">File Type</h6>
+
+                <span>Document</span>
+              </div>
+
+              <!-- Download Button -->
+              <div class="col-2 align-self-center">
+                <button class="btn btn-dark">Download</button>
+              </div>
+            </div>
+            <!-- End of Resources card 1 -->
+            <!-- Resources card 2 -->
+            <div class="row border rounded px-3 py-2 my-3 shadow-sm">
+              <!-- File Icon and Name -->
+              <div class="col-2">
+                <h6 class="fw-semiblod dixstone-secondary">Name</h6>
+
+                <div class="d-flex align-items-center gap-2">
+                  <iconify-icon icon="uiw:file-pdf" class="fs-2"></iconify-icon>
+
+                  <!-- File name -->
+                  <span>Cost details for special survey</span>
+                </div>
+              </div>
+
+              <!-- Department -->
+              <div class="col">
+                <h6 class="fw-semiblod dixstone-secondary">Department</h6>
+
+                <span>Marine</span>
+              </div>
+
+              <!-- Author -->
+              <div class="col">
+                <h6 class="fw-semiblod dixstone-secondary">Author</h6>
+
+                <span>CHALSES Ebene</span>
+              </div>
+
+              <!-- Date -->
+              <div class="col">
+                <h6 class="fw-semiblod dixstone-secondary">Date</h6>
+
+                <span>2024-02-14</span>
+              </div>
+
+              <!-- Size -->
+              <div class="col">
+                <h6 class="fw-semiblod dixstone-secondary">Size</h6>
+
+                <span>127,42Kb</span>
+              </div>
+
+              <!-- File Type -->
+              <div class="col">
+                <h6 class="fw-semiblod dixstone-secondary">File Type</h6>
+
+                <span>Document</span>
+              </div>
+
+              <!-- Download Button -->
+              <div class="col-2 align-self-center">
+                <button class="btn btn-dark">Download</button>
+              </div>
+            </div>
+            <!-- End of Resources card 2 -->
+            <!-- Resources card 3 -->
+            <div class="row border rounded px-3 py-2 my-3 shadow-sm">
+              <!-- File Icon and Name -->
+              <div class="col-2">
+                <h6 class="fw-semiblod dixstone-secondary">Name</h6>
+
+                <div class="d-flex align-items-center gap-2">
+                  <iconify-icon icon="uiw:file-pdf" class="fs-2"></iconify-icon>
+
+                  <!-- File name -->
+                  <span>Cost details for special survey</span>
+                </div>
+              </div>
+
+              <!-- Department -->
+              <div class="col">
+                <h6 class="fw-semiblod dixstone-secondary">Department</h6>
+
+                <span>Marine</span>
+              </div>
+
+              <!-- Author -->
+              <div class="col">
+                <h6 class="fw-semiblod dixstone-secondary">Author</h6>
+
+                <span>CHALSES Ebene</span>
+              </div>
+
+              <!-- Date -->
+              <div class="col">
+                <h6 class="fw-semiblod dixstone-secondary">Date</h6>
+
+                <span>2024-02-14</span>
+              </div>
+
+              <!-- Size -->
+              <div class="col">
+                <h6 class="fw-semiblod dixstone-secondary">Size</h6>
+
+                <span>127,42Kb</span>
+              </div>
+
+              <!-- File Type -->
+              <div class="col">
+                <h6 class="fw-semiblod dixstone-secondary">File Type</h6>
+
+                <span>Document</span>
+              </div>
+
+              <!-- Download Button -->
+              <div class="col-2 align-self-center">
+                <button class="btn btn-dark">Download</button>
+              </div>
+            </div>
+            <!-- End of Resources card 3 -->
+            <!-- Resources card 4 -->
+            <div class="row border rounded px-3 py-2 my-3 shadow-sm">
+              <!-- File Icon and Name -->
+              <div class="col-2">
+                <h6 class="fw-semiblod dixstone-secondary">Name</h6>
+
+                <div class="d-flex align-items-center gap-2">
+                  <iconify-icon icon="uiw:file-pdf" class="fs-2"></iconify-icon>
+
+                  <!-- File name -->
+                  <span>Cost details for special survey</span>
+                </div>
+              </div>
+
+              <!-- Department -->
+              <div class="col">
+                <h6 class="fw-semiblod dixstone-secondary">Department</h6>
+
+                <span>Marine</span>
+              </div>
+
+              <!-- Author -->
+              <div class="col">
+                <h6 class="fw-semiblod dixstone-secondary">Author</h6>
+
+                <span>CHALSES Ebene</span>
+              </div>
+
+              <!-- Date -->
+              <div class="col">
+                <h6 class="fw-semiblod dixstone-secondary">Date</h6>
+
+                <span>2024-02-14</span>
+              </div>
+
+              <!-- Size -->
+              <div class="col">
+                <h6 class="fw-semiblod dixstone-secondary">Size</h6>
+
+                <span>127,42Kb</span>
+              </div>
+
+              <!-- File Type -->
+              <div class="col">
+                <h6 class="fw-semiblod dixstone-secondary">File Type</h6>
+
+                <span>Document</span>
+              </div>
+
+              <!-- Download Button -->
+              <div class="col-2 align-self-center">
+                <button class="btn btn-dark">Download</button>
+              </div>
+            </div>
+            <!-- End of Resources card 4 -->
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

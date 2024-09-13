@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Remix Icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!-- css style -->
+    <link rel="stylesheet" href="../assests/main.css" />
+    <link rel="stylesheet" href="../assests/icons.css" />
+
+    <!-- Font family  -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon script -->
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.1.0/dist/iconify-icon.min.js"></script>
+
+    <title>DIXSTONE || Documents</title>
+  </head>
+  <body>
+    <main>
+      <!-- pages and search -->
+      <section class="container">
+        <!-- ////////////////////////////////////////// -->
+        <!-- Search sections -->
+        <div class="d-flex align-items-center py-4">
+          <h6 class="fs-3 fw-bold col-3 dixstone-primary">
+            Available Resources
+          </h6>
+          <form class="col-4">
+            <div class="input-group border rounded shadow-sm">
+              <span
+                class="input-group-text dixstone-primary bg-white border-0 fw-bold fs-3"
+                id="basic-addon1"
+              >
+                <i class="ri-search-line"></i>
+              </span>
+              <input
+                type="text"
+                class="form-control border-0"
+                placeholder="Search by title..."
+                aria-label="search"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+          </form>
+        </div>
+        <!-- End of search section -->
+
+        <!-- ////////////////////////////////////////// -->
+
+        <!-- Tab Sections -->
+        <div class="d-flex align-items-center gap-3 py-5">
+          <h6 class="fw-bold text-capitalize dixstone-primary fs-5">
+            departments:
+          </h6>
+
+          <!-- Marine Card -->
+          <a
+            href="../pages/marines.html"
+            class="dixstone-secondary fs-6 d-flex align-items-center gap-2 border border-3 px-3 py-2 rounded text-decoration-none"
+          >
+            <iconify-icon
+              icon="hugeicons:submarine"
+              class="fs-4"
+            ></iconify-icon>
+            <span>Marine</span>
+          </a>
+          <!-- End of Marine Card -->
+          <!-- Drilling Card -->
+          <a
+            href="../pages/drilling.html"
+            class="dixstone-secondary fs-6 d-flex align-items-center gap-2 border border-3 px-3 py-2 rounded text-decoration-none"
+          >
+            <iconify-icon
+              icon="material-symbols:tools-power-drill-outline-sharp"
+              class="fs-4"
+            ></iconify-icon>
+
+            <span>Drilling</span>
+          </a>
+          <!-- End of Drilling Card -->
+          <!-- H.R Card -->
+          <a
+            href="../pages/hr.html"
+            class="dixstone-secondary fs-6 d-flex align-items-center gap-2 border border-3 px-3 py-2 rounded text-decoration-none"
+          >
+            <iconify-icon
+              icon="fa6-solid:people-roof"
+              class="fs-4"
+            ></iconify-icon>
+            <span> H.R </span>
+          </a>
+          <!-- End of H.R Card -->
+          <!-- I.T Card -->
+          <a
+            href="../pages/it.html"
+            class="dixstone-secondary fs-6 d-flex align-items-center gap-2 border border-3 px-3 py-2 rounded text-decoration-none"
+          >
+            <iconify-icon icon="bi:laptop" class="fs-4"></iconify-icon>
+
+            <span> I.T </span>
+          </a>
+          <!-- End of I.T Card -->
+          <!-- Petrodel Card -->
+          <a
+            href="../pages/petrodel.html"
+            class="dixstone-secondary fs-6 d-flex align-items-center gap-2 border border-3 px-3 py-2 rounded text-decoration-none"
+          >
+            <iconify-icon
+              icon="ri:user-settings-fill"
+              class="fs-4"
+            ></iconify-icon>
+            <span>Petrodel </span>
+          </a>
+          <!-- End of Petrodel Card -->
+          <!-- QHSE Card -->
+          <a
+            href="../pages/qhse.html"
+            class="dixstone-secondary fs-6 d-flex align-items-center gap-2 border border-3 px-3 py-2 rounded text-decoration-none active"
+          >
+            <iconify-icon
+              icon="wpf:security-checked"
+              class="fs-4"
+            ></iconify-icon>
+            <span>QHSE </span>
+          </a>
+          <!-- End of QHSE card -->
+          <!-- Supply Chain card -->
+          <a
+            href="../pages/supply-chain.html"
+            class="dixstone-secondary fs-6 d-flex align-items-center gap-2 border border-3 px-3 py-2 rounded text-decoration-none"
+          >
+            <iconify-icon icon="bx:link" class="fs-4"></iconify-icon>
+            <span>Supply Chain </span>
+          </a>
+
+          <!-- End Of Supply Chain -->
+        </div>
+      </section>
+
+      <!-- Folder Section -->
+      <section class="container pb-5">
+        <div class="mb-5">
+          <div class="d-flex justify-content-between align-items-center">
+            <h6 class="fs-3 fw-bold col-3 dixstone-primary mb-2">QHSE</h6>
+            <div class="d-flex gap-3">
+              <button
+                class="btn btn-outline-dark fs-5 d-flex dixstone-primary align-items-center gap-2"
+              >
+                <iconify-icon icon="flowbite:sort-outline"></iconify-icon>
+
+                <span>Sort</span>
+              </button>
+              <button
+                class="btn btn-outline-dark fs-5 d-flex dixstone-primary align-items-center gap-2"
+              >
+                <iconify-icon icon="ph:folder-thin"></iconify-icon>
+                <span>Add folder</span>
+              </button>
+              <button class="btn btn-dark fs-5 d-flex align-items-center gap-2">
+                <iconify-icon icon="ic:round-add"></iconify-icon>
+                <span>Add File</span>
+              </button>
+            </div>
+          </div>
+          <!-- Resources card 1 -->
+          <div class="row border rounded px-3 py-2 my-3 shadow-sm">
+            <!-- File Icon and Name -->
+            <div class="col-2">
+              <h6 class="fw-semiblod dixstone-secondary">Name</h6>
+
+              <div class="d-flex align-items-center gap-2">
+                <iconify-icon
+                  icon="material-symbols:folder"
+                  class="folder fs-2"
+                ></iconify-icon>
+                <!-- File name -->
+                <span>Worksheets</span>
+              </div>
+            </div>
+
+            <!-- Department -->
+            <div class="col">
+              <h6 class="fw-semiblod dixstone-secondary">Department</h6>
+
+              <span>QHSE</span>
+            </div>
+
+            <!-- Author -->
+            <div class="col">
+              <h6 class="fw-semiblod dixstone-secondary">Author</h6>
+
+              <span>-----</span>
+            </div>
+
+            <!-- Date -->
+            <div class="col">
+              <h6 class="fw-semiblod dixstone-secondary">Date</h6>
+
+              <span>2024-02-14</span>
+            </div>
+
+            <!-- Size -->
+            <div class="col">
+              <h6 class="fw-semiblod dixstone-secondary">Size</h6>
+
+              <span>127,42Kb</span>
+            </div>
+
+            <!-- File Type -->
+            <div class="col">
+              <h6 class="fw-semiblod dixstone-secondary">File Type</h6>
+
+              <span>Folder</span>
+            </div>
+
+            <!-- Download Button -->
+            <div class="col-3">
+              <h6 class="fw-semiblod dixstone-secondary">Action</h6>
+
+              <div class="d-flex gap-3">
+                <a class="btn btn-dark">Open</a>
+                <button class="btn btn-outline-dark">Rename</button>
+              </div>
+            </div>
+          </div>
+          <!-- End of Resources card 1 -->
+
+          <!-- Resources card 2 -->
+          <div class="row border rounded px-3 py-2 my-3 shadow-sm">
+            <!-- File Icon and Name -->
+            <div class="col-2">
+              <h6 class="fw-semiblod dixstone-secondary">Name</h6>
+
+              <div class="d-flex align-items-center gap-2">
+                <iconify-icon icon="uiw:file-pdf" class="fs-2"></iconify-icon>
+
+                <!-- File name -->
+                <span>Cost details for special survey</span>
+              </div>
+            </div>
+
+            <!-- Department -->
+            <div class="col">
+              <h6 class="fw-semiblod dixstone-secondary">Department</h6>
+
+              <span>QHSE</span>
+            </div>
+
+            <!-- Author -->
+            <div class="col">
+              <h6 class="fw-semiblod dixstone-secondary">Author</h6>
+
+              <span>CHALSES Ebene</span>
+            </div>
+
+            <!-- Date -->
+            <div class="col">
+              <h6 class="fw-semiblod dixstone-secondary">Date</h6>
+
+              <span>2024-02-14</span>
+            </div>
+
+            <!-- Size -->
+            <div class="col">
+              <h6 class="fw-semiblod dixstone-secondary">Size</h6>
+
+              <span>127,42Kb</span>
+            </div>
+
+            <!-- File Type -->
+            <div class="col">
+              <h6 class="fw-semiblod dixstone-secondary">File Type</h6>
+
+              <span>Document</span>
+            </div>
+
+            <!-- Download Button -->
+            <div class="col-3">
+              <h6 class="fw-semiblod dixstone-secondary">Action</h6>
+
+              <div class="d-flex gap-3">
+                <button class="btn btn-dark">Download</button>
+                <a class="btn btn-outline-dark">hide</a>
+                <button class="btn btn-outline-danger">delete</button>
+              </div>
+            </div>
+          </div>
+          <!-- End of Resources card 2 -->
+          <!-- Resources card 3 -->
+          <div class="row border rounded px-3 py-2 my-3 shadow-sm">
+            <!-- File Icon and Name -->
+            <div class="col-2">
+              <h6 class="fw-semiblod dixstone-secondary">Name</h6>
+
+              <div class="d-flex align-items-center gap-2">
+                <iconify-icon icon="uiw:file-pdf" class="fs-2"></iconify-icon>
+
+                <!-- File name -->
+                <span>Cost details for special survey</span>
+              </div>
+            </div>
+
+            <!-- Department -->
+            <div class="col">
+              <h6 class="fw-semiblod dixstone-secondary">Department</h6>
+
+              <span>QHSE</span>
+            </div>
+
+            <!-- Author -->
+            <div class="col">
+              <h6 class="fw-semiblod dixstone-secondary">Author</h6>
+
+              <span>CHALSES Ebene</span>
+            </div>
+
+            <!-- Date -->
+            <div class="col">
+              <h6 class="fw-semiblod dixstone-secondary">Date</h6>
+
+              <span>2024-02-14</span>
+            </div>
+
+            <!-- Size -->
+            <div class="col">
+              <h6 class="fw-semiblod dixstone-secondary">Size</h6>
+
+              <span>127,42Kb</span>
+            </div>
+
+            <!-- File Type -->
+            <div class="col">
+              <h6 class="fw-semiblod dixstone-secondary">File Type</h6>
+
+              <span>Document</span>
+            </div>
+
+            <!-- Download Button -->
+            <div class="col-3">
+              <h6 class="fw-semiblod dixstone-secondary">Action</h6>
+
+              <div class="d-flex gap-3">
+                <button class="btn btn-dark">Download</button>
+                <a class="btn btn-outline-dark">hide</a>
+                <button class="btn btn-outline-danger">delete</button>
+              </div>
+            </div>
+          </div>
+          <!-- End of Resources card 3 -->
+          <!-- Resources card 4 -->
+          <div class="row border rounded px-3 py-2 my-3 shadow-sm">
+            <!-- File Icon and Name -->
+            <div class="col-2">
+              <h6 class="fw-semiblod dixstone-secondary">Name</h6>
+
+              <div class="d-flex align-items-center gap-2">
+                <iconify-icon icon="uiw:file-pdf" class="fs-2"></iconify-icon>
+
+                <!-- File name -->
+                <span>Cost details for special survey</span>
+              </div>
+            </div>
+
+            <!-- Department -->
+            <div class="col">
+              <h6 class="fw-semiblod dixstone-secondary">Department</h6>
+
+              <span>QHSE</span>
+            </div>
+
+            <!-- Author -->
+            <div class="col">
+              <h6 class="fw-semiblod dixstone-secondary">Author</h6>
+
+              <span>CHALSES Ebene</span>
+            </div>
+
+            <!-- Date -->
+            <div class="col">
+              <h6 class="fw-semiblod dixstone-secondary">Date</h6>
+
+              <span>2024-02-14</span>
+            </div>
+
+            <!-- Size -->
+            <div class="col">
+              <h6 class="fw-semiblod dixstone-secondary">Size</h6>
+
+              <span>127,42Kb</span>
+            </div>
+
+            <!-- File Type -->
+            <div class="col">
+              <h6 class="fw-semiblod dixstone-secondary">File Type</h6>
+
+              <span>Document</span>
+            </div>
+
+            <!-- Download Button -->
+            <div class="col-3">
+              <h6 class="fw-semiblod dixstone-secondary">Action</h6>
+
+              <div class="d-flex gap-3">
+                <button class="btn btn-dark">Download</button>
+                <a class="btn btn-outline-dark">hide</a>
+                <button class="btn btn-outline-danger">delete</button>
+              </div>
+            </div>
+          </div>
+          <!-- End of Resources card 4 -->
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
