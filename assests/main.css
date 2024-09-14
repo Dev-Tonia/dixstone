@@ -94,3 +94,6 @@ aside {
 .brand {
   font-family: "Kumbh Sans", system-ui;
 }
+.dixstone-tab a span {
+  font-size: 12px;
+}
