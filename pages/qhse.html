@@ -35,13 +35,13 @@
         <!-- ////////////////////////////////////////// -->
         <!-- Search sections -->
         <div class="d-flex align-items-center py-4">
-          <h6 class="fs-3 fw-bold col-3 dixstone-primary">
+          <h6 class="fs-4 fw-bold col-3 dixstone-primary mb-0">
             Available Resources
           </h6>
           <form class="col-4">
             <div class="input-group border rounded shadow-sm">
               <span
-                class="input-group-text dixstone-primary bg-white border-0 fw-bold fs-3"
+                class="input-group-text dixstone-primary bg-white border-0 fw-bold"
                 id="basic-addon1"
               >
                 <i class="ri-search-line"></i>
@@ -62,7 +62,7 @@
 
         <!-- Tab Sections -->
         <div class="d-flex align-items-center gap-3 py-5 dixstone-tab">
-          <h6 class="fw-bold text-capitalize dixstone-primary fs-5">
+          <h6 class="fw-bold text-capitalize dixstone-primary mb-0">
             departments:
           </h6>
 
@@ -154,23 +154,34 @@
       <section class="container pb-5">
         <div class="mb-5">
           <div class="d-flex justify-content-between align-items-center">
-            <h6 class="fs-3 fw-bold col-3 dixstone-primary mb-2">QHSE</h6>
+            <h6 class="fs-4 fw-bold col-3 dixstone-primary mb-0">QHSE</h6>
             <div class="d-flex gap-3">
               <button
-                class="btn btn-outline-dark fs-5 d-flex dixstone-primary align-items-center gap-2"
+                class="btn btn-outline-dark dixstone-tab d-flex dixstone-primary align-items-center gap-2"
               >
-                <iconify-icon icon="flowbite:sort-outline"></iconify-icon>
+                <iconify-icon
+                  class="fs-6"
+                  icon="flowbite:sort-outline"
+                ></iconify-icon>
 
                 <span>Sort</span>
               </button>
               <button
-                class="btn btn-outline-dark fs-5 d-flex dixstone-primary align-items-center gap-2"
+                type="button"
+                class="btn btn-outline-dark dixstone-tab d-flex dixstone-primary align-items-center gap-2"
+                data-bs-toggle="modal"
+                data-bs-target="#modal1"
               >
-                <iconify-icon icon="ph:folder-thin"></iconify-icon>
+                <iconify-icon class="fs-6" icon="ph:folder-thin"></iconify-icon>
                 <span>Add folder</span>
               </button>
-              <button class="btn btn-dark fs-5 d-flex align-items-center gap-2">
-                <iconify-icon icon="ic:round-add"></iconify-icon>
+              <button
+                type="button"
+                class="btn btn-dark dixstone-tab d-flex align-items-center gap-2"
+                data-bs-toggle="modal"
+                data-bs-target="#addResources"
+              >
+                <iconify-icon class="fs-6" icon="ic:round-add"></iconify-icon>
                 <span>Add File</span>
               </button>
             </div>

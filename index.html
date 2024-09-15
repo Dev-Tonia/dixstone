@@ -46,9 +46,9 @@
               PMS
             </h6>
             <div
-              class="d-flex justify-content-center gap-1 align-items-center pt-3"
+              class="d-xxl-flex justify-content-between gap-1 align-items-center pt-3 px"
             >
-              <small>Site Contact</small>
+              <small class="">Site Contact</small>
               <div
                 class="dixstone-secondary p-1 rounded bg-white d-flex align-items-center gap-1"
               >
@@ -60,42 +60,285 @@
               </div>
             </div>
           </div>
-          <ul class="navbar-nav text-black my-3">
-            <li class="nav-item fw-bold border-2 border-bottom pt-3"></li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Dashboard</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Profile</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Settings</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Logout</a>
-            </li>
-          </ul>
+
+          <!-- Accordion -->
+          <div class="accordion w-100 mt-4" id="accordionSidebar">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button collapsed bg-transparent"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="false"
+                  aria-controls="collapseOne"
+                >
+                  <div class="d-flex gap-2">
+                    <iconify-icon icon="ion:newspaper"></iconify-icon>
+                    <span>Project</span>
+                  </div>
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionSidebar"
+              >
+                <div class="accordion-body">Project Details</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed bg-transparent"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  <div class="d-flex gap-2">
+                    <iconify-icon icon="mdi:pin"></iconify-icon>
+                    <span> Business Plan </span>
+                  </div>
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionSidebar"
+              >
+                <div class="accordion-body">Business Plan Details</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed bg-transparent"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  <div class="d-flex gap-2">
+                    <iconify-icon icon="clarity:clipboard-line"></iconify-icon>
+                    <span> BI Reports </span>
+                  </div>
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionSidebar"
+              >
+                <div class="accordion-body">BI Reports Details</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button
+                  class="accordion-button collapsed bg-transparent"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  <div class="d-flex gap-2">
+                    <iconify-icon icon="pajamas:accessibility"></iconify-icon>
+                    <span> Accessibility </span>
+                  </div>
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFour"
+                data-bs-parent="#accordionSidebar"
+              >
+                <div class="accordion-body">Accessibility Details</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button
+                  class="accordion-button collapsed bg-transparent"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseFive"
+                >
+                  <div class="d-flex gap-2">
+                    <iconify-icon icon="oui:documentation"></iconify-icon>
+                    <span> Documentation </span>
+                  </div>
+                </button>
+              </h2>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFive"
+                data-bs-parent="#accordionSidebar"
+              >
+                <div class="accordion-body">Documentation Details</div>
+              </div>
+            </div>
+          </div>
         </nav>
       </div>
     </aside>
 
     <!-- Main content -->
-    <main class="d-flex mt-5 px-3 px-md-5">
+    <main class="d-flex px-3 px-md-5">
       <div class="col-2 sideUnderlay"></div>
 
       <div class="col-10 mx-auto">
+        <!-- nav bar -->
+        <header class="pt-4">
+          <nav>
+            <ul class="list-unstyled d-flex gap-2">
+              <li>
+                <a
+                  href="/"
+                  class="d-flex align-items-center gap-1 text-decoration-none text-dark"
+                >
+                  <iconify-icon icon="game-icons:radar-dish"></iconify-icon>
+                  <span>IT</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                  class="d-flex align-items-center gap-1 text-decoration-none text-dark"
+                >
+                  <iconify-icon icon="clarity:clipboard-line"></iconify-icon>
+
+                  <span>Report</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                  class="d-flex align-items-center gap-1 text-decoration-none text-dark"
+                >
+                  <iconify-icon icon="game-icons:radio-tower"></iconify-icon>
+                  <span>Operation</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                  class="d-flex align-items-center gap-1 text-decoration-none text-dark"
+                >
+                  <iconify-icon
+                    icon="ant-design:project-outlined"
+                  ></iconify-icon>
+
+                  <span>Project</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                  class="d-flex align-items-center gap-1 text-decoration-none text-dark"
+                >
+                  <iconify-icon icon="majesticons:ship-line"></iconify-icon>
+
+                  <span>QSHE</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                  class="d-flex align-items-center gap-1 text-decoration-none text-dark"
+                >
+                  <iconify-icon icon="mingcute:ship-fill"></iconify-icon>
+                  <span>HR</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                  class="d-flex align-items-center gap-1 text-decoration-none text-dark"
+                >
+                  <iconify-icon icon="iconoir:dollar"></iconify-icon>
+                  <span>Finance</span>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/"
+                  class="d-flex align-items-center gap-1 text-decoration-none text-dark"
+                >
+                  <iconify-icon icon="lets-icons:flag-fill"></iconify-icon>
+                  <span>SCM</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                  class="d-flex align-items-center gap-1 text-decoration-none text-dark"
+                >
+                  <iconify-icon icon="carbon:gui-management"></iconify-icon>
+                  <span>Crisis management</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                  class="d-flex align-items-center gap-1 text-decoration-none text-dark"
+                >
+                  <iconify-icon
+                    icon="material-symbols-light:spatial-tracking-outline"
+                  ></iconify-icon>
+                  <span>Action tracking</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                  class="d-flex align-items-center gap-1 text-decoration-none text-dark"
+                >
+                  <iconify-icon
+                    icon="material-symbols-light:archive-outline"
+                  ></iconify-icon>
+                  <span> Document archiving </span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                  class="d-flex align-items-center gap-1 text-decoration-none text-dark"
+                >
+                  <iconify-icon icon="ph:globe"></iconify-icon>
+                  <span>English </span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
         <!-- pages and search -->
         <section class="">
           <!-- ////////////////////////////////////////// -->
           <!-- Search sections -->
           <div class="d-flex align-items-center py-4">
-            <h6 class="fs-3 fw-bold col-3 dixstone-primary">
+            <h6 class="fs-4 fw-bold col-3 dixstone-primary mb-0">
               Available Resources
             </h6>
             <form class="col-4">
               <div class="input-group border rounded shadow-sm">
                 <span
-                  class="input-group-text dixstone-primary bg-white border-0 fw-bold fs-3"
+                  class="input-group-text dixstone-primary bg-white border-0 fw-bold"
                   id="basic-addon1"
                 >
                   <i class="ri-search-line"></i>
@@ -117,7 +360,7 @@
 
           <!-- Tab Sections -->
           <div class="d-flex align-items-center gap-3 py-5 dixstone-tav">
-            <h6 class="fw-bold text-capitalize dixstone-primary fs-5">
+            <h6 class="fw-bold text-capitalize dixstone-primary mb-0">
               departments:
             </h6>
 
@@ -208,7 +451,7 @@
         <!-- Folder Section -->
         <section class="pb-5 resources">
           <div class="mb-5">
-            <h6 class="fs-3 fw-bold col-3 dixstone-primary mb-2">
+            <h6 class="fs-4 fw-bold dixstone-primary mb-0">
               Recently Added Resources
             </h6>
 
@@ -436,5 +679,7 @@
         </section>
       </div>
     </main>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
