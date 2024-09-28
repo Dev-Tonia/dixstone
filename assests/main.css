@@ -167,3 +167,29 @@ header nav ul a {
   color: black;
   background-color: transparent;
 }
+
+/* Center content on screens wider than 1440px */
+@media (min-width: 1401px) {
+  .container-1440 {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  aside.col-2.position-fixed {
+    left: calc((100% - 1400px) / 2);
+    width: calc(1400px * 0.2); /* 16.66% of 1400px */
+  }
+
+  main.d-flex {
+    margin-left: calc(1400px * 0.2); /* 16.66% of 1400px */
+  }
+
+  main .col-10.mx-auto {
+    max-width: calc(1400px * 0.8); /* 83.33% of 1400px */
+  }
+  .sideUnderlay {
+    display: none;
+  }
+}
